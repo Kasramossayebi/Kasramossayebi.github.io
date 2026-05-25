@@ -59,8 +59,9 @@ al_folio:
     source: al-org-dev/distill-template#al-folio
     allow_remote_loader: true
   features:
-    cv: "assets/pdf/cv.pdf"
+    cv:
       enabled: true
+      pdf: "assets/pdf/my_cv.pdf"
     distill:
       enabled: true
   compat:
