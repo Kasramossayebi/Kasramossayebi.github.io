@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: University of Toronto
+subtitle: Mathematics at the University of Toronto
+description: Research in higher algebra, homotopy theory, Hodge theory, and quantum information.
 
 profile:
   align: right
@@ -12,10 +13,10 @@ profile:
     <p>Toronto, Ontario</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -25,10 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm Kasra Mossayebi, a second year undergraduate student doing mathematics at the University of Toronto. I'm interested in category theory, algebraic tools, and mathematical physics. This summer, I'm a visiting student at Northeastern University working on research.
+I am an undergraduate mathematics specialist at the University of Toronto. My interests lie at the intersection of **higher algebra, homotopy theory, Hodge theory, and quantum information**. During summer 2026, I am a visiting student researcher at Northeastern University, working with the Halverson Lab and members of the Institute for Artificial Intelligence and Fundamental Interactions (IAIFI).
 
-My current research started with the [following work](https://arxiv.org/abs/1901.02011) by Tom Mainero. I was a coauthor on a [paper](https://arxiv.org/abs/2410.12529) that was able to show that there exists a parallel between the entanglement complexes of Mainero and Hodge theory on manifolds. Currently, I, along with Christian Ferko and Gregor Sanfey, are attempting to use the tools of higher algebra including $A_\infty$ algebras to extract new invariants to characterize multipartite entanglement.
+My research asks how algebraic and homotopical structures can reveal information about quantum entanglement. In joint work with Christian Ferko, Eashan Iyer, and Gregor Sanfey, I helped develop a Hodge theory for entanglement cohomology; the resulting paper appeared in _Physical Review A_ in 2025. My current projects use $A_\infty$-algebras, higher Massey products, and algebraic K-theory to construct invariants of quantum-resource systems.
 
-Currently, I'm aiming to learn more about homological mirror symmetry because of its intersection with various fields I already find interesting. 
+Alongside this work, I am developing an independent Hodge-DGA direction motivated by deformation theory and the distinction between algebraic pairings and positive Hermitian realizations. I am also interested in homological mirror symmetry and its connections with the areas above.
 
-If you want to talk about anything related(or unrelated), feel free to contact me at my school email: kasra.mossayebi@mail.utoronto.ca
+You can read more on the [research](/research/) page, browse my [publications](/publications/) and [talks](/talks/), or reach me at [kasra.mossayebi@mail.utoronto.ca](mailto:kasra.mossayebi@mail.utoronto.ca).
