@@ -1,41 +1,95 @@
 cv:
   name: Kasra Mossayebi
+  headline: Mathematics undergraduate working in higher algebra, homotopy theory, Hodge theory, and quantum information
+  location: Toronto, Ontario, Canada
   email: kasra.mossayebi@mail.utoronto.ca
-  location: Toronto,On.
-  image: ""
-  summary: Second year math students interested in category theory, algebra, and mathematical physics
+  website: https://kasramossayebi.github.io
+  social_networks:
+    - network: GitHub
+      username: Kasramossayebi
+    - network: ORCID
+      username: 0009-0004-6714-3433
 
   sections:
     Education:
       - institution: University of Toronto
         location: Toronto, Canada
         area: Mathematics Specialist
-        studyType: BSc
-        start_date: 2025
-        end_date: 2029
-        score: ""
-        courses: "Analysis 1, Algebra 1, Algebra 2"
-
-      - institution: Northeastern University
-        location: Boston, MA USA
-        area: Research
-        studyType: visiting student
-        start_date: June 2026
-        end_date: August 2026
+        degree: BSc
+        start_date: 2025-09
+        end_date: present
         highlights:
-          - Funded travel and board as a visiting student working on research with C. Ferko.
+          - "cGPA: 3.85"
+          - Coursework includes analysis, algebra, topology, and advanced ordinary differential equations.
+          - Member of the directed reading group on infinity-categories in algebraic geometry.
+
+    Research Experience:
+      - company: Northeastern University / IAIFI
+        position: Algebraic K-Theory for Resources
+        location: Boston, United States
+        start_date: 2026-06
+        end_date: present
+        highlights:
+          - Applied Waldhausen's S-construction to quantum-resource categories to seek computable spectra and invariants.
+          - Explored Segal and May delooping machines and applications to quantum magic.
+          - Preprint in preparation.
+
+      - company: Northeastern University / IAIFI
+        position: A-infinity Algebras and Entanglement
+        start_date: 2026-03
+        end_date: present
+        highlights:
+          - Extended the entanglement DGA to an A-infinity algebra via homotopy transfer.
+          - Established local-unitary invariance and extracted basis-independent invariants from higher Massey products.
+          - Preprint in preparation.
+
+      - company: With Christian Ferko
+        position: Extending Generative Effects to Entanglement
+        start_date: 2024-12
+        end_date: present
+        highlights:
+          - Explored categorical, operator-algebraic, and higher-descent approaches to detecting entangled states.
+
+      - company: With Christian Ferko, Eashan Iyer, and Gregor Sanfey
+        position: A Hodge Theory for Entanglement Cohomology
+        start_date: 2024-07
+        end_date: 2025-01
+        highlights:
+          - Developed a Hodge-theoretic framework for entanglement cohomology and proved compatibility of support operators.
+          - Published in Physical Review A.
+
+      - company: Independent project
+        position: Homotopical Equivalence of Categories
+        start_date: 2023-03
+        end_date: 2023-07
+        highlights:
+          - Studied conditions for adjoint equivalences of relative categories to extend to homotopical equivalences.
+
+    Publications:
+      - title: A Hodge Theory for Entanglement Cohomology
+        authors:
+          - Christian Ferko
+          - Eashan Iyer
+          - "**Kasra Mossayebi**"
+          - Gregor Sanfey
+        doi: 10.1103/PhysRevA.111.032422
+        url: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.111.032422
+        journal: Physical Review A
+        date: 2025-03-21
+
+    Talks:
+      - name: An Introduction to Entanglement Cohomology
+        location: Physics Undergraduate Colloquium, University of Toronto
+        date: 2026-01-23
+        summary: Introduced the GNS entanglement complex and used a two-qubit example to show how it detects entanglement.
+
+      - name: Generative Effects and Quantum Entanglement
+        location: Mathematics Undergraduate Colloquium, University of Toronto
+        date: 2025-10-10
+        summary: Presented a categorical perspective on generative effects and possible extensions to entanglement and higher-category descent.
 
     Awards:
-      - title: Ted Mossman Scholarship
-        date: October 2025
-        awarder: University College
-        summary: Given for "showing exceptional promise"
-        
-    Publications:
-      - title: Hodge Theory for Entanglement Cohomology
-        authors:
-          - Christian Ferko, Eashan Iyer, _Kasra Mossayebi_, Gregor Sanfey
-        publisher: Physical Review A
-        releaseDate: March 21, 2025
-        url: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.111.032422
-
+      - name: Ted Mossman Scholarship
+        location: University College, University of Toronto
+        date: 2025-10
+        summary: Awarded for showing exceptional promise.
